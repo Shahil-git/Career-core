@@ -1,9 +1,15 @@
+import Banner from "../Banner/Banner";
+import Cetagory from "../Cetagorys/Cetagory";
+import Features from "../Features/Features";
 
 
 const Home = () => {
     return (
         <div>
-            <h1 className="text-center font-Lobster text-5xl">Welcome to home</h1>
+            <Banner></Banner>
+            <Cetagory></Cetagory>
+            <Features></Features>
+            
      
         </div>
     );

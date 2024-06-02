@@ -8,9 +8,10 @@ export default {
   ],
   theme: {
     extend: {},
-    fontFamily :{
-      Lobster:["Lobster"],
-      Manrope:["Manrope"]
+    fontFamily: {
+      Lobster: ["Lobster"],
+      Manrope: ["Manrope"],
+      SiyamRupali:["SiyamRupali , sans-serif"]
     }
   },
   plugins: [daisyui],
